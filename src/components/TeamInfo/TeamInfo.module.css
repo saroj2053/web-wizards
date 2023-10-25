@@ -122,11 +122,12 @@
 
 .profileName {
   color: #333;
+  text-align: center;
 }
 .profileDesignation {
   color: var(--primary-color);
   font-weight: normal;
-  text-align: left;
+  text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
