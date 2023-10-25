@@ -26,7 +26,9 @@ const Footer = () => {
               <h2>
                 <FaLocationArrow />
               </h2>
-              <p>Vettersstraße 54 Chemnitz, Saxony, Germany</p>
+              <a href="https://shorturl.at/buHMN" target="_blank">
+                Vettersstraße 54 Chemnitz, Saxony, Germany
+              </a>
             </div>
             <div className={footerStyles.companyEmail}>
               <h2>
