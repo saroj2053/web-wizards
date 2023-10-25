@@ -79,7 +79,7 @@ const TeamInfo = () => {
               <img src={profileImageFour} alt="" />
             </div>
             <h2 className={styles.profileName}>Saroj Sah</h2>
-            <h4 className={styles.profileDesignation}>Web Developer</h4>
+            <h4 className={styles.profileDesignation}>Full Stack Developer</h4>
             <div className={styles.ntw__links}>
               <a class="githubIcon" href="">
                 <i class="fa-brands fa-square-github"></i>
