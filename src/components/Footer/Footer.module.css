@@ -68,5 +68,7 @@
 }
 
 .disclaimer__text {
+  background: #03795d;
   text-align: center;
+  color: #ffffff;
 }
