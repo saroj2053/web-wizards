@@ -8,7 +8,7 @@ import profileImageFive from "../../assets/sajani.png";
 
 const TeamInfo = () => {
   return (
-    <div className={styles.teamInfo}>
+    <div className={styles.teamInfo} id="team">
       <div className="container">
         <h2 className={styles.teamInfo__heading}>Our Team</h2>
         <div className={styles.profileCards}>

@@ -1,5 +1,9 @@
 .header {
-  background: #f8f6f6;
+  background: rgba(248, 246, 246, 0.92);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .header__contents {
@@ -32,13 +36,19 @@
 
 .nav__link {
   list-style: none;
-  padding:  1rem 1.5rem;
+  
   font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
 }
 
-.nav__link:hover {
+.nav__link > a {
+  padding:  1rem 1.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav__link> a:hover {
   background-color: var(--primary-color);
   color: #fff;
   }

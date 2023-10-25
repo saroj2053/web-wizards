@@ -16,10 +16,18 @@ const Header = () => {
           </div>
           <div className={styles.header__right}>
             <ul className={styles.nav__links}>
-              <li className={styles.nav__link}>Home</li>
-              <li className={styles.nav__link}>About</li>
-              <li className={styles.nav__link}>Team</li>
-              <li className={styles.nav__link}>Contact</li>
+              <li className={styles.nav__link}>
+                <a href="/">Home</a>
+              </li>
+              <li className={styles.nav__link}>
+                <a href="#about">About</a>
+              </li>
+              <li className={styles.nav__link}>
+                <a href="#team">Team</a>
+              </li>
+              <li className={styles.nav__link}>
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
           </div>
         </div>

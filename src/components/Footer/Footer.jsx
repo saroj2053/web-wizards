@@ -63,12 +63,15 @@ const Footer = () => {
                   </a>
                 </h2>
                 <h2>
-                  <a href="#">
+                  <a
+                    href="https://www.linkedin.com/in/web-wizards-team/"
+                    target="_blank"
+                  >
                     <AiFillLinkedin className={footerStyles.linkedin} />
                   </a>
                 </h2>
                 <h2>
-                  <a href="#">
+                  <a href="https://twitter.com/WWizards42028" target="_blank">
                     <RiTwitterXFill className={footerStyles.x} />
                   </a>
                 </h2>
