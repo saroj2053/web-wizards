@@ -9,56 +9,65 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <div className={footerStyles.footer}>
-      <div className="container">
-        <div className={footerStyles.footer__contents}>
-          <div className={footerStyles.footer__left}>
-            <img
-              className={footerStyles.footer__image}
-              src={companyLogo}
-              alt=""
-            />
-          </div>
-          <h2></h2>
-          <div className={footerStyles.footer__right}>
-            <h2 className="m-1">Team Web Wizards</h2>
-            <div className={footerStyles.companyLocation}>
-              <h2>
-                <FaLocationArrow />
-              </h2>
-              <a href="https://shorturl.at/buHMN" target="_blank">
-                Vettersstraße 54 Chemnitz, Saxony, Germany
-              </a>
+    <>
+      <div className={footerStyles.footer}>
+        <div className="container">
+          <div className={footerStyles.footer__contents}>
+            <div className={footerStyles.footer__left}>
+              <img
+                className={footerStyles.footer__image}
+                src={companyLogo}
+                alt=""
+              />
             </div>
-            <div className={footerStyles.companyEmail}>
-              <h2>
-                <MdEmail />
-              </h2>
-              <a
-                href="mailto:webwizardsinfo@gmail.com?subject=Mail from your Site"
-                className="m-1"
-              >
-                webwizardsinfo@gmail.com
-              </a>
-            </div>
-            <div className={footerStyles.companyPhone}>
-              <h2>
-                <BsFillTelephoneFill />
-              </h2>
-              <a href="tel:+4915752491735" className="m-1">
-                +4915752491735
-              </a>
+            <h2></h2>
+            <div className={footerStyles.footer__right}>
+              <h2 className="m-1">Team Web Wizards</h2>
+              <div className={footerStyles.companyLocation}>
+                <h2>
+                  <FaLocationArrow />
+                </h2>
+                <a href="https://shorturl.at/buHMN" target="_blank">
+                  Vettersstraße 54 Chemnitz, Saxony, Germany
+                </a>
+              </div>
+              <div className={footerStyles.companyEmail}>
+                <h2>
+                  <MdEmail />
+                </h2>
+                <a
+                  href="mailto:webwizardsservices@gmail.com?subject=Mail from your Site"
+                  className="m-1"
+                >
+                  webwizardsservices@gmail.com
+                </a>
+              </div>
+              <div className={footerStyles.companyPhone}>
+                <h2>
+                  <BsFillTelephoneFill />
+                </h2>
+                <a href="tel:+4915752491735" className="m-1">
+                  +4915752491735
+                </a>
+              </div>
             </div>
           </div>
         </div>
+        <div className={footerStyles.copyright__text}>
+          <small>
+            Copyright &copy; <span id="copyright"> {year}</span> Web Wizards.
+            All rights reserved
+          </small>
+        </div>
       </div>
-      <div className={footerStyles.copyright__text}>
+      <div className={footerStyles.disclaimer__text}>
         <small>
-          Copyright &copy; <span id="copyright"> {year}</span> Web Wizards. All
-          rights reserved
+          This website is not associated with an actual company but is a part of
+          a web engineering project called Planspiel at the University of
+          Technology in Chemnitz.
         </small>
       </div>
-    </div>
+    </>
   );
 };
 
