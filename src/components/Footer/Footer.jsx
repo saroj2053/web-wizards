@@ -47,7 +47,7 @@ const Footer = () => {
                   <BsFillTelephoneFill />
                 </h2>
                 <a href="tel:+4915752491735" className="m-1">
-                  +4915752491735
+                  +4915752491735/+4915734790855
                 </a>
               </div>
             </div>
