@@ -9,6 +9,7 @@ import {
   AiFillTwitterSquare,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   const date = new Date();
@@ -68,7 +69,7 @@ const Footer = () => {
                 </h2>
                 <h2>
                   <a href="#">
-                    <AiFillTwitterSquare className={footerStyles.x} />
+                    <RiTwitterXFill className={footerStyles.x} />
                   </a>
                 </h2>
               </div>
