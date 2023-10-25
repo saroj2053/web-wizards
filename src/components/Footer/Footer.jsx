@@ -3,8 +3,12 @@ import footerStyles from "./Footer.module.css";
 import companyLogo from "../../assets/brandLogo.png";
 import { FaLocationArrow } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill, BsLinkedin } from "react-icons/bs";
-import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import {
+  AiFillFacebook,
+  AiFillTwitterSquare,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 const Footer = () => {
   const date = new Date();
@@ -53,18 +57,18 @@ const Footer = () => {
               </div>
               <div className={footerStyles.companySiteListings}>
                 <h2>
-                  <a className={footerStyles.fb} href="#">
-                    <FaFacebookSquare />
+                  <a href="#">
+                    <AiFillFacebook className={footerStyles.fb} />
                   </a>
                 </h2>
                 <h2>
                   <a href="#">
-                    <BsLinkedin />
+                    <AiFillLinkedin className={footerStyles.linkedin} />
                   </a>
                 </h2>
                 <h2>
                   <a href="#">
-                    <FaTwitterSquare />
+                    <AiFillTwitterSquare className={footerStyles.x} />
                   </a>
                 </h2>
               </div>

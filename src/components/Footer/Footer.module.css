@@ -79,10 +79,26 @@
   height: 100%;
 }
 
-svg:hover {
+.fb, .linkedin, .x {
+  font-size: 3rem;
+  background: transparent;
+  transition: all 300ms ease-in-out;
+}
+
+.fb:hover {
   fill: #4267B2;
   stroke: #fff;
-  background: #fff;
+  background-color: #fff;
+}
+.linkedin:hover {
+  fill: #0a66c2;
+  stroke: #fff;
+  background-color: #fff;
+}
+.x:hover {
+  fill: #1DA1F2;
+  stroke: #fff;
+  background-color: #fff;
 }
 
 .disclaimer__text {
