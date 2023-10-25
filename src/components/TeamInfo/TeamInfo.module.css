@@ -1,0 +1,59 @@
+.teamInfo {
+  background: #f5f2f0;
+  position: relative;
+}
+
+.teamInfo__heading {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.teamInfo__heading::after {
+  display: block;
+  content: '';
+  margin: 0.5rem 0;
+  border-bottom: 4px solid var(--primary-color);
+  width: 160px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.profileCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.profileCard {
+  padding: 40px;
+  margin: 40px 20px 20px 0;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.3s ease-in;
+}
+
+.profileCard:hover {
+  transform: translateY(-8px);
+}
+.profileImage > img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.profileName {
+  color: #333;
+}
+.profileDesignation {
+  color: var(--primary-color);
+  font-weight: normal;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

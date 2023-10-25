@@ -1,0 +1,44 @@
+.header {
+  background: #f8f6f6;
+}
+
+.header__contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__brandImage {
+  width: 180px;
+  height: 80px;
+}
+/* .header__brand {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  letter-spacing: 0.25rem;
+} */
+
+/* .only__w {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+} */
+
+.header__right .nav__links {
+  display: flex;
+  padding: 20px;
+}
+
+.nav__link {
+  list-style: none;
+  padding:  1rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  }

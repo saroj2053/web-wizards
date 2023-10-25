@@ -1,0 +1,21 @@
+.contact {
+  position: relative;
+}
+
+.contact__heading {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact__heading::after {
+  display: block;
+  content: '';
+  margin: 0.5rem 0;
+  border-bottom: 4px solid var(--primary-color);
+  width: 180px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
