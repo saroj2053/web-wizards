@@ -69,6 +69,10 @@ input, textarea {
   cursor: pointer;
 }
 
+.btn-submit:hover {
+  background: #03795d;
+}
+
 @media screen and (max-width: 768px) {
 
 .form-header h1 {
