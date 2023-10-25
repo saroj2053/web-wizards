@@ -37,9 +37,10 @@
   align-items: center;
 }
 
-.companyLocation > p {
+.companyLocation > a {
   text-decoration: underline;
   cursor: pointer;
+  color: #fff;
 }
 
 .companyEmail {
