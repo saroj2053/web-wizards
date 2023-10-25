@@ -3,7 +3,8 @@ import footerStyles from "./Footer.module.css";
 import companyLogo from "../../assets/brandLogo.png";
 import { FaLocationArrow } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill, BsLinkedin } from "react-icons/bs";
+import { FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
   const date = new Date();
@@ -49,6 +50,23 @@ const Footer = () => {
                 <a href="tel:+4915752491735" className="m-1">
                   +4915752491735/+4915734790855
                 </a>
+              </div>
+              <div className={footerStyles.companySiteListings}>
+                <h2>
+                  <a className={footerStyles.fb} href="#">
+                    <FaFacebookSquare />
+                  </a>
+                </h2>
+                <h2>
+                  <a href="#">
+                    <BsLinkedin />
+                  </a>
+                </h2>
+                <h2>
+                  <a href="#">
+                    <FaTwitterSquare />
+                  </a>
+                </h2>
               </div>
             </div>
           </div>

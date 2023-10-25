@@ -67,6 +67,24 @@
   color: #fff;
 }
 
+.companySiteListings {
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.companySiteListings a {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+svg:hover {
+  fill: #4267B2;
+  stroke: #fff;
+  background: #fff;
+}
+
 .disclaimer__text {
   background: #03795d;
   text-align: center;
