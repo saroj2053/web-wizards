@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <h2></h2>
           <div className={footerStyles.footer__right}>
-            <h2 className="m-1">Web Wizards Corporation</h2>
+            <h2 className="m-1">Team Web Wizards</h2>
             <div className={footerStyles.companyLocation}>
               <h2>
                 <FaLocationArrow />
