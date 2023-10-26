@@ -84,11 +84,11 @@ const TeamInfo = () => {
               <img src={profileImageThree} alt="" />
             </div>
             <h2 className={styles.profileName}>Akshay Ghavale</h2>
-            <h4 className={styles.profileDesignation}>Backend Developer</h4>
+            <h4 className={styles.profileDesignation}>Full-stack Developer</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I'm a Full Stack Developer and a Web Engineering Master's
+                  I'm a full-stack Developer and a Web Engineering Master's
                   student at the Technical University of Chemnitz.
                 </p>
               </div>
