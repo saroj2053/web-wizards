@@ -22,13 +22,16 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita quo id labore. Tenetur voluptas quisquam dolore
-                  exercitationem, quam molestiae.
+                  I'm a Frontend Developer and a Web Engineering Master's
+                  student at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
-                <a className={`${styles.icon} ${styles.githubIcon}`} href="">
+                <a
+                  className={`${styles.icon} ${styles.githubIcon}`}
+                  href="http://github.com/dooa-ansari"
+                  target="_blank"
+                >
                   <BiLogoGithub />
                 </a>
 
@@ -53,19 +56,22 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita quo id labore. Tenetur voluptas quisquam dolore
-                  exercitationem, quam molestiae.
+                  I'm a Quality Assurance Engineer and a Web Engineering
+                  Master's student at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
-                <a className={`${styles.icon} ${styles.githubIcon}`} href="">
+                <a
+                  className={`${styles.icon} ${styles.githubIcon}`}
+                  href="#"
+                  target="_blank"
+                >
                   <BiLogoGithub />
                 </a>
 
                 <a
                   className={`${styles.icon} ${styles.linkedinIcon}`}
-                  href="https://www.linkedin.com/in/dooa-ansari-5a881a70/"
+                  href="https://www.linkedin.com/in/ruyardimci/"
                   target="_blank"
                 >
                   <BiLogoLinkedin />
@@ -82,19 +88,22 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita quo id labore. Tenetur voluptas quisquam dolore
-                  exercitationem, quam molestiae.
+                  I'm a Full Stack Developer and a Web Engineering Master's
+                  student at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
-                <a className={`${styles.icon} ${styles.githubIcon}`} href="">
+                <a
+                  className={`${styles.icon} ${styles.githubIcon}`}
+                  href="https://github.com/akg1998"
+                  target="_blank"
+                >
                   <BiLogoGithub />
                 </a>
 
                 <a
                   className={`${styles.icon} ${styles.linkedinIcon}`}
-                  href="https://www.linkedin.com/in/dooa-ansari-5a881a70/"
+                  href="https://www.linkedin.com/in/akshay-ghavale/"
                   target="_blank"
                 >
                   <BiLogoLinkedin />
@@ -111,21 +120,23 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita quo id labore. Tenetur voluptas quisquam dolore
-                  exercitationem, quam molestiae. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Ab facilis quae aspernatur iure
-                  quidem non nulla temporibus unde laboriosam blanditiis.
+                  I am Saroj Sah, a full-stack developer. I am currently
+                  pursuing my master's degree in Web Engineering at Technische
+                  Universität Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
-                <a className={`${styles.icon} ${styles.githubIcon}`} href="">
+                <a
+                  className={`${styles.icon} ${styles.githubIcon}`}
+                  href="https://github.com/saroj2053"
+                  target="_blank"
+                >
                   <BiLogoGithub />
                 </a>
 
                 <a
                   className={`${styles.icon} ${styles.linkedinIcon}`}
-                  href="https://www.linkedin.com/in/dooa-ansari-5a881a70/"
+                  href="https://www.linkedin.com/in/saroj-sah-139922124/"
                   target="_blank"
                 >
                   <BiLogoLinkedin />
@@ -142,19 +153,22 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Expedita quo id labore. Tenetur voluptas quisquam dolore
-                  exercitationem, quam molestiae.
+                  I'm a Full Stack Developer and a Web Engineering Master's
+                  student at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
-                <a className={`${styles.icon} ${styles.githubIcon}`} href="">
+                <a
+                  className={`${styles.icon} ${styles.githubIcon}`}
+                  href="https://github.com/SajaniJoshi"
+                  target="_blank"
+                >
                   <BiLogoGithub />
                 </a>
 
                 <a
                   className={`${styles.icon} ${styles.linkedinIcon}`}
-                  href="https://www.linkedin.com/in/dooa-ansari-5a881a70/"
+                  href="https://www.linkedin.com/in/sajani-joshi-891a3644/"
                   target="_blank"
                 >
                   <BiLogoLinkedin />
