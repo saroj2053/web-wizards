@@ -63,7 +63,7 @@ const TeamInfo = () => {
               <div className={styles.ntw__links}>
                 <a
                   className={`${styles.icon} ${styles.githubIcon}`}
-                  href="#"
+                  href="https://github.com/ruyardimci"
                   target="_blank"
                 >
                   <BiLogoGithub />
