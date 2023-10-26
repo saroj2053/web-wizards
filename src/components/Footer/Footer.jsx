@@ -58,7 +58,8 @@ const Footer = () => {
               </div>
               <div className={footerStyles.companySiteListings}>
                 <h2>
-                  <a href="https://www.facebook.com/profile.php?id=61552264606950">
+                  <a href="https://www.facebook.com/profile.php?id=61552264606950"
+                  target="_blank">
                     <AiFillFacebook className={footerStyles.fb} />
                   </a>
                 </h2>
