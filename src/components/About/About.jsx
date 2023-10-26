@@ -9,7 +9,7 @@ const About = () => {
         <h2 className={aboutStyles.about__heading}>About Us</h2>
         <div className={aboutStyles.about__contents}>
           <div className={aboutStyles.about__right}>
-            <p>
+            <p className={aboutStyles.padding_mobile}>
               Web Wizards in Chemnitz offers cutting-edge tech solutions, driven
               by our passionate team's commitment to excellence. We're your
               reliable partner in navigating evolving tech landscapes, tailoring

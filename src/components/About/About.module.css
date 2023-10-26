@@ -39,3 +39,7 @@
   text-align: justify;
   margin-top: 2rem;
 }
+
+.padding_mobile {
+  padding: 20px;
+}
