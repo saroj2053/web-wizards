@@ -1,4 +1,9 @@
 
+.contact{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .form-header {
   display: flex;
   flex-direction: column;
@@ -67,6 +72,8 @@ input, textarea {
   font-weight: 500;
   border-radius: 0.25rem;
   cursor: pointer;
+  width: 50%;
+  
 }
 
 .btn-submit:hover {
