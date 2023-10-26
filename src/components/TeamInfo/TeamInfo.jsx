@@ -13,23 +13,23 @@ const TeamInfo = () => {
       <div className="container">
         <h2 className={styles.teamInfo__heading}>Our Team</h2>
         <div className={styles.profileCards}>
-          <div className={`${styles.profileCard} ${styles.overlay__container}`}>
+        <div className={`${styles.profileCard} ${styles.overlay__container}`}>
             <div className={styles.profileImage}>
-              <img src={profileImageOne} alt="" />
+              <img src={profileImageFive} alt="" />
             </div>
-            <h2 className={styles.profileName}>Dooa Ansari</h2>
-            <h4 className={styles.profileDesignation}>Frontend Developer</h4>
+            <h2 className={styles.profileName}>Sajani Joshi</h2>
+            <h4 className={styles.profileDesignation}>Chief Technology Officer</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I'm a Frontend Developer and a Web Engineering Master's
-                  student at the Technical University of Chemnitz.
+                  I am Sajani Joshi. I am currently pursuing Master's in Web Engineering 
+                  at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
                 <a
                   className={`${styles.icon} ${styles.githubIcon}`}
-                  href="http://github.com/dooa-ansari"
+                  href="https://github.com/SajaniJoshi"
                   target="_blank"
                 >
                   <BiLogoGithub />
@@ -37,7 +37,7 @@ const TeamInfo = () => {
 
                 <a
                   className={`${styles.icon} ${styles.linkedinIcon}`}
-                  href="https://www.linkedin.com/in/dooa-ansari-5a881a70/"
+                  href="https://www.linkedin.com/in/sajani-joshi-891a3644/"
                   target="_blank"
                 >
                   <BiLogoLinkedin />
@@ -45,19 +45,21 @@ const TeamInfo = () => {
               </div>
             </div>
           </div>
+          
           <div className={`${styles.profileCard} ${styles.overlay__container}`}>
             <div className={styles.profileImage}>
               <img src={profileImageTwo} alt="" />
             </div>
             <h2 className={styles.profileName}>Rüya Yardimci</h2>
             <h4 className={styles.profileDesignation}>
-              Quality Assurance Engineer
+              Product Owner
             </h4>
+          
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I'm a Quality Assurance Engineer and a Web Engineering
-                  Master's student at the Technical University of Chemnitz.
+                I am Rüya Yardimci. I am currently pursuing Master's in Web Engineering 
+                  at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -84,12 +86,12 @@ const TeamInfo = () => {
               <img src={profileImageThree} alt="" />
             </div>
             <h2 className={styles.profileName}>Akshay Ghavale</h2>
-            <h4 className={styles.profileDesignation}>Full-stack Developer</h4>
+            <h4 className={styles.profileDesignation}>Scrum Master</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I'm a full-stack Developer and a Web Engineering Master's
-                  student at the Technical University of Chemnitz.
+                I am Akshay Ghavale. I am currently pursuing Master's in Web Engineering 
+                  at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -116,13 +118,12 @@ const TeamInfo = () => {
               <img src={profileImageFour} alt="" />
             </div>
             <h2 className={styles.profileName}>Saroj Sah</h2>
-            <h4 className={styles.profileDesignation}>Full Stack Developer</h4>
+            <h4 className={styles.profileDesignation}>Full-Stack Developer & Dev-ops</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I am Saroj Sah, a full-stack developer. I am currently
-                  pursuing my master's degree in Web Engineering at Technische
-                  Universität Chemnitz.
+                I am Saroj Sah. I am currently pursuing Master's in Web Engineering 
+                  at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -146,21 +147,22 @@ const TeamInfo = () => {
           </div>
           <div className={`${styles.profileCard} ${styles.overlay__container}`}>
             <div className={styles.profileImage}>
-              <img src={profileImageFive} alt="" />
+              <img src={profileImageOne} alt="" />
             </div>
-            <h2 className={styles.profileName}>Sajani Joshi</h2>
-            <h4 className={styles.profileDesignation}>Backend Developer</h4>
+            <h2 className={styles.profileName}>Dooa Ansari</h2>
+            <h4 className={styles.profileDesignation}>Marketing Head</h4>
+            
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I'm a Full Stack Developer and a Web Engineering Master's
-                  student at the Technical University of Chemnitz.
+                I am Dooa Ansari. I am currently pursuing Master's in Web Engineering 
+                  at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
                 <a
                   className={`${styles.icon} ${styles.githubIcon}`}
-                  href="https://github.com/SajaniJoshi"
+                  href="http://github.com/dooa-ansari"
                   target="_blank"
                 >
                   <BiLogoGithub />
@@ -168,7 +170,7 @@ const TeamInfo = () => {
 
                 <a
                   className={`${styles.icon} ${styles.linkedinIcon}`}
-                  href="https://www.linkedin.com/in/sajani-joshi-891a3644/"
+                  href="https://www.linkedin.com/in/dooa-ansari-5a881a70/"
                   target="_blank"
                 >
                   <BiLogoLinkedin />

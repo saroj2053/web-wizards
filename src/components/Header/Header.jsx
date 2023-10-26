@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container">
         <div className={styles.header__contents}>
           <div className={styles.header__left}>
-            <img className={styles.header__brandImage} src={brandLogo} alt="" />
+            <a href="/"><img className={styles.header__brandImage} src={brandLogo} alt="" /></a>
           </div>
           <div className={styles.header__right}>
             <ul
