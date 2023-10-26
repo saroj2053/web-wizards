@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
       <div className={footerStyles.disclaimer__text}>
         <small>
-          This website is not associated with an actual company but is a part of
+          Disclaimer: This website is not associated with an actual company but is a part of
           a web engineering project called Planspiel at the University of
           Technology in Chemnitz.
         </small>
