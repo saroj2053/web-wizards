@@ -1,9 +1,5 @@
 .header {
   background: rgba(248, 246, 246, 0.92);
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
 }
 
 .header__contents {
@@ -17,17 +13,6 @@
   width: 180px;
   height: 80px;
 }
-/* .header__brand {
-  font-size: 1.5rem;
-  padding: 1rem 1.5rem;
-  letter-spacing: 0.25rem;
-} */
-
-/* .only__w {
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: var(--primary-color);
-} */
 
 .header__right .nav__links {
   display: flex;
