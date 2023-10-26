@@ -90,7 +90,7 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                I am Akshay Ghavale. I am currently pursuing Master's in Web Engineering 
+                  I am Akshay Ghavale. I am currently pursuing Master's in Web Engineering 
                   at the Technical University of Chemnitz.
                 </p>
               </div>
