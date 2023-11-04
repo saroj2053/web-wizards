@@ -5,7 +5,7 @@ import { TiThMenu } from "react-icons/ti";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-scroll";
 
-const duration = 500;
+const duration = 700;
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
