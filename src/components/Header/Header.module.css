@@ -40,10 +40,15 @@
   color: #333;
 }
 
-.nav__link> a:hover {
+
+.nav__link > a:hover {
   background-color: var(--primary-color);
   color: #fff;
-  }
+}
+
+.nav__link > a.active {
+color: var(--primary-color);
+}
 
   .menuIcon {
     cursor: pointer;

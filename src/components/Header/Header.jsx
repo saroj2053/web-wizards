@@ -34,17 +34,35 @@ const Header = () => {
                 <a href="/">Home</a>
               </li>
               <li className={styles.nav__link}>
-                <Link to="about" spy smooth duration={duration}>
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy
+                  smooth
+                  duration={duration}
+                >
                   About
                 </Link>
               </li>
               <li className={styles.nav__link}>
-                <Link to="team" spy smooth duration={duration}>
+                <Link
+                  activeClass="active"
+                  to="team"
+                  spy
+                  smooth
+                  duration={duration}
+                >
                   Team
                 </Link>
               </li>
               <li className={styles.nav__link}>
-                <Link to="contact" spy smooth duration={duration}>
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy
+                  smooth
+                  duration={duration}
+                >
                   Contact
                 </Link>
               </li>

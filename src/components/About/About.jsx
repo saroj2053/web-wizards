@@ -1,10 +1,11 @@
 import React from "react";
 import aboutStyles from "./About.module.css";
-import aboutImage from "../../assets/aboutImage.jpg";
+
+import { Element } from "react-scroll";
 
 const About = () => {
   return (
-    <div className={aboutStyles.about} name="about">
+    <Element className={aboutStyles.about} name="about">
       <div className="container">
         <h2 className={aboutStyles.about__heading}>About Us</h2>
         <div className={aboutStyles.about__contents}>
@@ -20,7 +21,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 
