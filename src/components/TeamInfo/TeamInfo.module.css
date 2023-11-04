@@ -1,13 +1,13 @@
 .teamInfo {
   background: #f5f2f0;
   position: relative;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .teamInfo__heading {
   font-weight: 600;
   font-size: 2rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
   text-align: center;
 }
 
