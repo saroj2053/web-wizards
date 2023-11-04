@@ -3,6 +3,9 @@ import styles from "./Header.module.css";
 import brandLogo from "../../assets/brandLogo.png";
 import { TiThMenu } from "react-icons/ti";
 import { MdClose } from "react-icons/md";
+import { Link } from "react-scroll";
+
+const duration = 500;
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -15,7 +18,13 @@ const Header = () => {
       <div className="container">
         <div className={styles.header__contents}>
           <div className={styles.header__left}>
-            <a href="/"><img className={styles.header__brandImage} src={brandLogo} alt="" /></a>
+            <a href="/">
+              <img
+                className={styles.header__brandImage}
+                src={brandLogo}
+                alt=""
+              />
+            </a>
           </div>
           <div className={styles.header__right}>
             <ul
@@ -25,13 +34,19 @@ const Header = () => {
                 <a href="/">Home</a>
               </li>
               <li className={styles.nav__link}>
-                <a href="#about">About</a>
+                <Link to="about" spy smooth duration={duration}>
+                  About
+                </Link>
               </li>
               <li className={styles.nav__link}>
-                <a href="#team">Team</a>
+                <Link to="team" spy smooth duration={duration}>
+                  Team
+                </Link>
               </li>
               <li className={styles.nav__link}>
-                <a href="#contact">Contact</a>
+                <Link to="contact" spy smooth duration={duration}>
+                  Contact
+                </Link>
               </li>
             </ul>
             <li

@@ -9,11 +9,11 @@ import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 
 const TeamInfo = () => {
   return (
-    <div className={styles.teamInfo} id="team">
+    <div className={styles.teamInfo} name="team">
       <div className="container">
         <h2 className={styles.teamInfo__heading}>Our Team</h2>
         <div className={styles.profileCards}>
-        <div className={`${styles.profileCard} ${styles.overlay__container}`}>
+          <div className={`${styles.profileCard} ${styles.overlay__container}`}>
             <div className={styles.profileImage}>
               <img src={profileImageFive} alt="" />
             </div>
@@ -22,8 +22,8 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I am Sajani Joshi. I am currently pursuing Master's in Web Engineering 
-                  at the Technical University of Chemnitz.
+                  I am Sajani Joshi. I am currently pursuing Master's in Web
+                  Engineering at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -45,7 +45,7 @@ const TeamInfo = () => {
               </div>
             </div>
           </div>
-          
+
           <div className={`${styles.profileCard} ${styles.overlay__container}`}>
             <div className={styles.profileImage}>
               <img src={profileImageTwo} alt="" />
@@ -54,12 +54,12 @@ const TeamInfo = () => {
             <h4 className={styles.profileDesignation}>
               Quality Assurance Engineer
             </h4>
-          
+
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                I am Rüya Yardimci. I am currently pursuing Master's in Web Engineering 
-                  at the Technical University of Chemnitz.
+                  I am Rüya Yardimci. I am currently pursuing Master's in Web
+                  Engineering at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -90,8 +90,8 @@ const TeamInfo = () => {
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                  I am Akshay Ghavale. I am currently pursuing Master's in Web Engineering 
-                  at the Technical University of Chemnitz.
+                  I am Akshay Ghavale. I am currently pursuing Master's in Web
+                  Engineering at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -118,12 +118,14 @@ const TeamInfo = () => {
               <img src={profileImageFour} alt="" />
             </div>
             <h2 className={styles.profileName}>Saroj Sah</h2>
-            <h4 className={styles.profileDesignation}>Full-Stack Developer & Dev-ops</h4>
+            <h4 className={styles.profileDesignation}>
+              Full-Stack Developer & Dev-ops
+            </h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                I am Saroj Sah. I am currently pursuing Master's in Web Engineering 
-                  at the Technical University of Chemnitz.
+                  I am Saroj Sah. I am currently pursuing Master's in Web
+                  Engineering at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
@@ -151,12 +153,12 @@ const TeamInfo = () => {
             </div>
             <h2 className={styles.profileName}>Dooa Ansari</h2>
             <h4 className={styles.profileDesignation}>Full-Stack Developer</h4>
-            
+
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
-                I am Dooa Ansari. I am currently pursuing Master's in Web Engineering 
-                  at the Technical University of Chemnitz.
+                  I am Dooa Ansari. I am currently pursuing Master's in Web
+                  Engineering at the Technical University of Chemnitz.
                 </p>
               </div>
               <div className={styles.ntw__links}>
