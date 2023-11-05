@@ -31,7 +31,15 @@ const Header = () => {
               className={`${styles.nav__links} ${isNavOpen ? styles.open : ""}`}
             >
               <li className={styles.nav__link}>
-                <a href="/">Home</a>
+                <Link
+                  activeClass="active"
+                  to="home"
+                  spy
+                  smooth
+                  duration={duration}
+                >
+                  Home
+                </Link>
               </li>
               <li className={styles.nav__link}>
                 <Link

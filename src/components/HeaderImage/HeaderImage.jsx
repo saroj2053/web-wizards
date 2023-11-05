@@ -4,7 +4,7 @@ import imageStyles from "./HeaderImage.module.css";
 
 const HeaderImage = () => {
   return (
-    <div className={imageStyles.headerImage}>
+    <div className={imageStyles.headerImage} name="home">
       <img
         className={imageStyles.header__image}
         src={landingImage}
