@@ -118,9 +118,7 @@ const TeamInfo = () => {
               <img src={profileImageFour} alt="" />
             </div>
             <h2 className={styles.profileName}>Saroj Sah</h2>
-            <h4 className={styles.profileDesignation}>
-              Full-Stack Developer & Dev-ops
-            </h4>
+            <h4 className={styles.profileDesignation}>Full-Stack Developer</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
