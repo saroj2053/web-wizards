@@ -1,4 +1,5 @@
 .about {
+  background: #f5f2f0;
   padding-top: 6rem;
   padding-bottom: 6rem;
   position: relative;
@@ -34,7 +35,7 @@
 }
 
 .about__right > p {
-  color: gray;
+  color: #070707;
   line-height: 1.75rem;
   font-size: 1.10rem;
   text-align: justify;

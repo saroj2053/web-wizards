@@ -55,6 +55,17 @@ const Header = () => {
               <li className={styles.nav__link}>
                 <Link
                   activeClass="active"
+                  to="product"
+                  spy
+                  smooth
+                  duration={duration}
+                >
+                  Product
+                </Link>
+              </li>
+              <li className={styles.nav__link}>
+                <Link
+                  activeClass="active"
                   to="team"
                   spy
                   smooth
