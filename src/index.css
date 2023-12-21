@@ -18,6 +18,7 @@ body {
 
 :root {
   --primary-color: #439a86;
+  --def-transition-duration: .3s;
 }
 
 .m-1 {

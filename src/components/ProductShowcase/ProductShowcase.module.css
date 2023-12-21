@@ -42,12 +42,12 @@
 }
 
 
-figure footer p.small {
+figure p.small {
   font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
 	color: #fff;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
@@ -108,6 +108,65 @@ figure:hover footer {
   opacity: 1;
 }
 
+figcaption {
+  z-index: 1;
+}
+
+figcaption::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(21, 22, 24, 0.24) 0%, #151618 100%);
+  z-index: -1;
+  opacity: 0;
+  transition-property: opacity;
+}
+
+figure:hover figcaption::before {
+  opacity: 1;
+}
+
+figure img {
+  transform: scale(1.2);
+  transition-property: transform;
+}
+
+figure:hover img {
+  transform: scale(1);
+}
+
+figure {
+  overflow: hidden;
+}
+
+figure main {
+  transform: translate3d(0, -6rem, 0);
+  transition-property: opacity, transform;
+}
+
+figure footer {
+  transform: translate3d(0, 6rem, 0);
+  transition-property: opacity, transform;
+}
+
+figure:hover main,
+figure:hover footer {
+  transform: translate3d(0, 0, 0);
+}
+
+figure:hover footer img {
+  transform: translate3d(0, 0, 0) rotate(0);
+  opacity: 1;
+}
+
+figcaption::before,
+figure img,
+figure main,
+figure footer {
+  transition-duration: var(--def-transition-duration);
+  transition-timing-function: ease-in-out;
+}
+
 .golive__button {
   color: white;
   text-decoration: none;
@@ -118,7 +177,7 @@ figure:hover footer {
   cursor: pointer;
 }
 
-@media screen and (min-width: 451px) and (max-width: 768px) {
+@media screen and (min-width: 531px) and (max-width: 768px) {
   figcaption {
     gap: 0.5rem;
     padding: 1rem;
@@ -141,5 +200,10 @@ figure:hover footer {
 
   figure h3 + p {
     font-size: 0.5rem;
+  }
+
+  .golive__button {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
   }
 }
