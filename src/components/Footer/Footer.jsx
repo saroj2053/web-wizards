@@ -33,7 +33,7 @@ const Footer = () => {
                 <h2>
                   <FaLocationArrow />
                 </h2>
-                <a href="https://shorturl.at/buHMN" target="_blank">
+                <a href="https://maps.app.goo.gl/h1KBMhEUvMA7QR6j6" target="_blank">
                   Vettersstraße 54 Chemnitz, Saxony, Germany
                 </a>
               </div>
@@ -59,7 +59,7 @@ const Footer = () => {
               <div className={footerStyles.companySiteListings}>
                 <h2>
                   <a href="https://www.facebook.com/profile.php?id=61552264606950"
-                  target="_blank">
+                    target="_blank">
                     <AiFillFacebook className={footerStyles.fb} />
                   </a>
                 </h2>
