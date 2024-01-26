@@ -18,7 +18,7 @@ const TeamInfo = () => {
               <img src={profileImageFive} alt="" />
             </div>
             <h2 className={styles.profileName}>Sajani Joshi</h2>
-            <h4 className={styles.profileDesignation}>Full-Stack Developer</h4>
+            <h4 className={styles.profileDesignation}>Backend Developer</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
@@ -52,7 +52,7 @@ const TeamInfo = () => {
             </div>
             <h2 className={styles.profileName}>Rüya Yardimci</h2>
             <h4 className={styles.profileDesignation}>
-              Quality Assurance Engineer
+              Head of Marketing
             </h4>
 
             <div className={styles.overlay__containerContents}>
@@ -118,7 +118,7 @@ const TeamInfo = () => {
               <img src={profileImageFour} alt="" />
             </div>
             <h2 className={styles.profileName}>Saroj Sah</h2>
-            <h4 className={styles.profileDesignation}>Full-Stack Developer</h4>
+            <h4 className={styles.profileDesignation}>Front-end Developer</h4>
             <div className={styles.overlay__containerContents}>
               <div className={styles.aboutProfile}>
                 <p>
