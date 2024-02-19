@@ -28,15 +28,6 @@ const ProductShowcase = () => {
                     across courses.
                   </p>
                 </main>
-                {/* <footer>
-                  <a
-                    href="https://planspiel-across.vercel.app/"
-                    target="_blank"
-                    className={styles.golive__button}
-                  >
-                    Go Live
-                  </a>
-                </footer> */}
               </figcaption>
             </figure>
           </div>

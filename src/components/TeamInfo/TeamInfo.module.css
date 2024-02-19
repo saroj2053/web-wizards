@@ -33,7 +33,7 @@
 .profileCard {
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  /* transition: transform 0.3s ease-in; */
+
 }
 
 .overlay__container {
@@ -43,10 +43,10 @@
   position: relative;
 }
 
-.overlay__container .profileImage > img {
+.overlay__container .profileImage>img {
   display: block;
   width: 100%;
-  
+
 }
 
 .overlay__container::after {
@@ -113,7 +113,7 @@
 }
 
 
-.profileImage > img {
+.profileImage>img {
   width: 250px;
   height: 250px;
   object-fit: contain;
@@ -123,6 +123,7 @@
   color: #333;
   text-align: center;
 }
+
 .profileDesignation {
   background-color: var(--primary-color);
   color: #fff;
@@ -132,4 +133,29 @@
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 414px) {
+  .teamInfo__heading {
+    font-size: 1.25rem;
+  }
+
+  .teamInfo__heading::after {
+    width: 120px;
+  }
+
+  .profileName {
+    font-size: 1.25rem;
+    padding-top: 0.35rem;
+  }
+
+  .profileDesignation {
+    font-size: 0.95rem;
+  }
+
+  .profileImage>img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+  }
 }
