@@ -149,3 +149,47 @@
   }
 
 }
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .footer__left .footer__image {
+    width: 250px;
+    height: 140px;
+  }
+
+  .footer__contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__right h2 {
+    font-size: 1.25rem;
+  }
+
+  .companyLocation>a,
+  .companyEmail>a,
+  .companyPhone>a {
+    font-size: 1rem;
+  }
+
+
+  .companySiteListings a>svg {
+    font-size: 2rem;
+  }
+
+  .copyright__text {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .disclaimer__text {
+    font-size: 1rem;
+  }
+
+}

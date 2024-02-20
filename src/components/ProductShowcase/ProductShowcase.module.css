@@ -211,3 +211,27 @@ figure footer {
   }
 
 }
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  figcaption {
+    gap: 0.25rem;
+    padding: 0.5rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  figure h3+p {
+    font-size: 0.5rem;
+  }
+
+  .productShowcase__heading {
+    font-size: 1.5rem;
+  }
+
+  .productShowcase__heading::after {
+    width: 160px;
+  }
+
+}

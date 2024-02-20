@@ -60,3 +60,24 @@
     font-size: 0.875rem;
   }
 }
+
+@media screen and (min-width:415px) and (max-width: 768px) {
+  .about__heading {
+    font-size: 1.5rem;
+  }
+
+  .about__heading::after {
+    display: block;
+    content: '';
+    margin: 0.5rem 0;
+    border-bottom: 4px solid var(--primary-color);
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .about__right>p {
+    font-size: 1rem;
+  }
+}
