@@ -115,7 +115,6 @@ const ContactForm = () => {
               onChange={event => setFieldData("message", event.target.value)}
             ></textarea>
           </div>
-
           <button className="btn btn-submit">Submit</button>
           <ToastContainer />
         </div>
