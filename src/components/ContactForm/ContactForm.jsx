@@ -59,7 +59,7 @@ const ContactForm = () => {
 
         <div className="formWrapper">
           <div className="form-group fullName-input">
-            <label for="fname">Full Name</label>
+            <label htmlFor="fname">Full Name</label>
             <input
               onChange={event => setFieldData("name", event.target.value)}
               value={formData.name}
@@ -71,7 +71,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group email-input">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input
               onChange={event => setFieldData("email", event.target.value)}
               value={formData.email}
@@ -83,7 +83,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group company-name">
-            <label for="cname">Company Name</label>
+            <label htmlFor="cname">Company Name</label>
             <input
               onChange={event => setFieldData("company", event.target.value)}
               value={formData.company}
@@ -93,7 +93,7 @@ const ContactForm = () => {
             />
           </div>
           <div className="form-group company-phone">
-            <label for="phone">Phone</label>
+            <label htmlFor="phone">Phone</label>
             <input
               onChange={event => setFieldData("phone", event.target.value)}
               value={formData.phone}
@@ -104,7 +104,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-group message-input">
-            <label for="message">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea
               name="message"
               id="message"
