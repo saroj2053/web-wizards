@@ -9,6 +9,7 @@
   font-weight: 600;
   font-size: 2rem;
   text-align: center;
+  margin: 40px;
 }
 
 .teamInfo__heading::after {
@@ -43,10 +44,10 @@
   position: relative;
 }
 
-.overlay__container .profileImage > img {
+.overlay__container .profileImage>img {
   display: block;
   width: 100%;
-  
+
 }
 
 .overlay__container::after {
@@ -113,7 +114,7 @@
 }
 
 
-.profileImage > img {
+.profileImage>img {
   width: 250px;
   height: 250px;
   object-fit: contain;
@@ -123,6 +124,7 @@
   color: #333;
   text-align: center;
 }
+
 .profileDesignation {
   background-color: var(--primary-color);
   color: #fff;
@@ -132,4 +134,42 @@
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.teamInfo__image {
+  max-width: 100%;
+  /* Adjust the maximum width as needed */
+  height: auto;
+  /* Maintain the aspect ratio of the image */
+  display: block;
+  /* Remove any default inline styles on images */
+  margin: auto;
+  /* Center the image horizontally within its container */
+  border-radius: 8px;
+  /* Add border-radius for rounded corners, adjust as needed */
+  /* Add any additional styling you need */
+}
+
+.teamInfo__imageContainer {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  /* Align children to the bottom of the container */
+  justify-content: center;
+  /* Center children horizontally */
+  height: 100%;
+  /* Ensure the container takes the full height of its parent */
+}
+
+.teamInfo__detailsButton {
+  position: absolute;
+  bottom: 0;
+  background-color: #439a86;
+  /* Example background color */
+  color: #fff;
+  /* Example text color */
+  padding: 10px;
+  /* Example padding */
+  border: none;
+  cursor: pointer;
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./TeamInfo.module.css";
 import profileImageOne from "../../assets/dooa.png";
 import profileImageTwo from "../../assets/ruya.png";
@@ -6,13 +6,35 @@ import profileImageThree from "../../assets/akshay.png";
 import profileImageFour from "../../assets/saroj.png";
 import profileImageFive from "../../assets/sajani.png";
 import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
+import DetailTeamInfo from "./DetailTeamInfo";
+import { useNavigate } from 'react-router-dom';
 
 const TeamInfo = () => {
+  const navigate = useNavigate();
+  const [showDetails, setShowDetails] = useState(false);
+
+  const handleDetailsClick = () => {
+    setShowDetails(true);
+  };
+
+  const handleCloseDetails = () => {
+    setShowDetails(false);
+  };
+
   return (
     <div className={styles.teamInfo} name="team">
       <div className="container">
         <h2 className={styles.teamInfo__heading}>Our Team</h2>
-        <div className={styles.profileCards}>
+        <img
+          className={styles.teamInfo__image}  // Add a class for styling if needed
+          src="src\assets\team_photo.jpg"  // Replace with the actual path to your image
+          alt="Team Image"
+        />
+        <button className={styles.teamInfo__detailsButton} onClick={handleDetailsClick}>
+          Show Details
+        </button>
+        {showDetails && <DetailTeamInfo onClose={handleCloseDetails} />}
+        {/* <div className={styles.profileCards}>
           <div className={`${styles.profileCard} ${styles.overlay__container}`}>
             <div className={styles.profileImage}>
               <img src={profileImageFive} alt="" />
@@ -178,7 +200,7 @@ const TeamInfo = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
