@@ -22,13 +22,41 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-
 }
+
+.teamInfo__pitchContents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.teamInfo__image {
+  width: 60%;
+}
+
+.teamInfo__image>img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 25px;
+}
+
+.pitchIllustrations {
+  width: 35%;
+}
+
+.illustration1,
+.illustration2,
+.illustration3 {
+  margin: 1.5rem 0;
+  color: var(--textColor);
+}
+
 
 .profileCards {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2.5rem;
   flex-wrap: wrap;
 }
 

@@ -5,6 +5,7 @@ import profileImageTwo from "../../assets/ruya.png";
 import profileImageThree from "../../assets/akshay.png";
 import profileImageFour from "../../assets/saroj.png";
 import profileImageFive from "../../assets/sajani.png";
+import teamPhoto from "../../assets/team_photo.jpg";
 import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 
 const TeamInfo = () => {
@@ -12,11 +13,34 @@ const TeamInfo = () => {
     <div className={styles.teamInfo} name="team">
       <div className="container">
         <h2 className={styles.teamInfo__heading}>Our Team</h2>
-        <img
-          className={styles.teamInfo__image} // Add a class for styling if needed
-          src="src\assets\team_photo.jpg" // Replace with the actual path to your image
-          alt="Team Image"
-        />
+        <div className={styles.teamInfo__pitchContents}>
+          <div className={styles.teamInfo__image}>
+            <img src={teamPhoto} alt="Team Image" />
+          </div>
+          <div className={styles.pitchIllustrations}>
+            <div className={styles.illustration1}>
+              <h4>Feature 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio, numquam.
+              </p>
+            </div>
+            <div className={styles.illustration2}>
+              <h4>Feature 2</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio, numquam.
+              </p>
+            </div>
+            <div className={styles.illustration3}>
+              <h4>Achievement -- Pitch 3</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio, numquam.
+              </p>
+            </div>
+          </div>
+        </div>
 
         <div className={styles.profileCards}>
           <div className={`${styles.profileCard} ${styles.overlay__container}`}>

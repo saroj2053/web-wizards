@@ -22,10 +22,11 @@
   background-color: rgb(245, 245, 245, 0.85);
   border-left: 10px solid var(--primary-color);
   max-width: 80%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .motto {
+  font-family: inherit;
   font-style: italic;
   color: var(--primary-color);
   font-size: 1.5rem;
