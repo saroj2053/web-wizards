@@ -46,12 +46,12 @@ figure p.small {
   font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
-	color: #fff;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 0;
 }
 
-figure h3 + p {
+figure h3+p {
   font-size: 0.8125rem;
 }
 
@@ -100,7 +100,7 @@ figure footer {
 }
 
 figure:hover figcaption {
-  background: linear-gradient(180deg, rgba(21,22,24,0.24) 0%, #151618 100%);
+  background: linear-gradient(180deg, rgba(21, 22, 24, 0.24) 0%, #151618 100%);
 }
 
 figure:hover main,
@@ -183,12 +183,12 @@ figure footer {
     padding: 1rem;
   }
 
-  figure h3 + p {
+  figure h3+p {
     font-size: 0.75rem;
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 414px) {
   figcaption {
     gap: 0.25rem;
     padding: 0.5rem;
@@ -198,12 +198,40 @@ figure footer {
     font-size: 0.75rem;
   }
 
-  figure h3 + p {
+  figure h3+p {
     font-size: 0.5rem;
   }
 
-  .golive__button {
-    padding: 0.35rem 0.75rem;
+  .productShowcase__heading {
+    font-size: 1.25rem;
+  }
+
+  .productShowcase__heading::after {
+    width: 160px;
+  }
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  figcaption {
+    gap: 0.25rem;
+    padding: 0.5rem;
+  }
+
+  h3 {
     font-size: 0.75rem;
   }
+
+  figure h3+p {
+    font-size: 0.5rem;
+  }
+
+  .productShowcase__heading {
+    font-size: 1.5rem;
+  }
+
+  .productShowcase__heading::after {
+    width: 160px;
+  }
+
 }

@@ -34,7 +34,7 @@
 .profileCard {
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  /* transition: transform 0.3s ease-in; */
+
 }
 
 .overlay__container {
@@ -172,4 +172,53 @@
   /* Example padding */
   border: none;
   cursor: pointer;
-}
+
+  @media screen and (max-width: 414px) {
+    .teamInfo__heading {
+      font-size: 1.25rem;
+    }
+
+    .teamInfo__heading::after {
+      width: 120px;
+    }
+
+    .profileName {
+      font-size: 1.125rem;
+      padding-top: 0.35rem;
+    }
+
+    .profileDesignation {
+      font-size: 0.95rem;
+    }
+
+    .profileImage>img {
+      width: 180px;
+      height: 180px;
+      object-fit: contain;
+    }
+  }
+
+  @media screen and (min-width: 415px) and (max-width: 768px) {
+    .teamInfo__heading {
+      font-size: 1.5rem;
+    }
+
+    .teamInfo__heading::after {
+      width: 150px;
+    }
+
+    .profileName {
+      font-size: 1.5rem;
+      padding-top: 0.35rem;
+    }
+
+    .profileDesignation {
+      font-size: 1rem;
+    }
+
+    .profileImage>img {
+      width: 210px;
+      height: 210px;
+      object-fit: contain;
+    }
+  }

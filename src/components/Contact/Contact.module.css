@@ -21,3 +21,25 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 414px) {
+  .contact__heading {
+    font-size: 1.25rem;
+  }
+
+
+  .contact__heading::after {
+    width: 130px;
+  }
+}
+
+@media screen and (min-width:415px) and (max-width: 768px) {
+  .contact__heading {
+    font-size: 1.5rem;
+  }
+
+
+  .contact__heading::after {
+    width: 150px;
+  }
+}
