@@ -2,12 +2,12 @@
   position: relative;
 }
 
-
 .header__image {
   width: 100%;
   height: 65vh;
   object-fit: cover;
   z-index: 1;
+  padding-top: 0px;
 }
 
 .motto__container {

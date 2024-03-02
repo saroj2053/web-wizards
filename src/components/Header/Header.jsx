@@ -5,7 +5,7 @@ import { TiThMenu } from "react-icons/ti";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-scroll";
 
-const duration = 700;
+const duration = 500;
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
             >
               <li className={styles.nav__link}>
                 <Link
-                  activeClass="active"
+                  activeClass={styles.active}
                   to="home"
                   spy
                   smooth
@@ -41,9 +41,10 @@ const Header = () => {
                   Home
                 </Link>
               </li>
+
               <li className={styles.nav__link}>
                 <Link
-                  activeClass="active"
+                  activeClass={styles.active}
                   to="about"
                   spy
                   smooth
@@ -54,7 +55,7 @@ const Header = () => {
               </li>
               <li className={styles.nav__link}>
                 <Link
-                  activeClass="active"
+                  activeClass={styles.active}
                   to="product"
                   spy
                   smooth
@@ -65,7 +66,7 @@ const Header = () => {
               </li>
               <li className={styles.nav__link}>
                 <Link
-                  activeClass="active"
+                  activeClass={styles.active}
                   to="team"
                   spy
                   smooth
@@ -76,7 +77,7 @@ const Header = () => {
               </li>
               <li className={styles.nav__link}>
                 <Link
-                  activeClass="active"
+                  activeClass={styles.active}
                   to="contact"
                   spy
                   smooth
