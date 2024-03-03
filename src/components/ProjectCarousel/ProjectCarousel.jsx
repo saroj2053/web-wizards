@@ -43,14 +43,14 @@ const ProjectCarousel = () => (
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
       </div>
-      <div>
+      {/* <div>
         <img className="carousel__img" alt="" src={index2Img} />
         <p className="legend">
           Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Expedita exercitationem velit molestiae ipsam veritatis tenetur vitae,
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
-      </div>
+      </div> */}
       <div>
         <img className="carousel__img" alt="" src={index3Img} />
         <p className="legend">
@@ -75,22 +75,22 @@ const ProjectCarousel = () => (
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
       </div>
-      <div>
+      {/* <div>
         <img className="carousel__img" alt="" src={index6Img} />
         <p className="legend">
           Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Expedita exercitationem velit molestiae ipsam veritatis tenetur vitae,
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <img className="carousel__img" alt="" src={index7Img} />
         <p className="legend">
           Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Expedita exercitationem velit molestiae ipsam veritatis tenetur vitae,
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
-      </div>
+      </div> */}
       <div>
         <img className="carousel__img" alt="" src={index8Img} />
         <p className="legend">
@@ -107,14 +107,14 @@ const ProjectCarousel = () => (
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
       </div>
-      <div>
+      {/* <div>
         <img className="carousel__img" alt="" src={index10Img} />
         <p className="legend">
           Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Expedita exercitationem velit molestiae ipsam veritatis tenetur vitae,
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
-      </div>
+      </div> */}
       <div>
         <img className="carousel__img" alt="" src={index11Img} />
         <p className="legend">
@@ -123,14 +123,14 @@ const ProjectCarousel = () => (
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
       </div>
-      <div>
+      {/* <div>
         <img className="carousel__img" alt="" src={index12Img} />
         <p className="legend">
           Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Expedita exercitationem velit molestiae ipsam veritatis tenetur vitae,
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
-      </div>
+      </div> */}
       <div>
         <img className="carousel__img" alt="" src={index13Img} />
         <p className="legend">
@@ -163,14 +163,14 @@ const ProjectCarousel = () => (
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
       </div>
-      <div>
+      {/* <div>
         <img className="carousel__img" alt="" src={index17Img} />
         <p className="legend">
           Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Expedita exercitationem velit molestiae ipsam veritatis tenetur vitae,
           qui est numquam nisi, eligendi, facere minus reiciendis similique?
         </p>
-      </div>
+      </div> */}
       <div>
         <img className="carousel__img" alt="" src={index18Img} />
         <p className="legend">
