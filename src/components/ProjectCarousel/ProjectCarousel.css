@@ -43,5 +43,6 @@
 .carousel .slide .legend {
   width: 60%;
   height: 10vh;
-  transform: translate(-50%)
+  margin-left: 0px;
+  transform: translate(-50%, -5px);
 }
