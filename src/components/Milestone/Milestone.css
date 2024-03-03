@@ -1,0 +1,42 @@
+.milestone__heading {
+  color: var(--textColor);
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.milestone__heading::after {
+  display: block;
+  content: '';
+  margin: 0.5rem 0;
+  border-bottom: 4px dashed var(--primary-color);
+  width: 230px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vertical-timeline::before {
+  background-color: lightgray !important;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+  color: gray;
+  ;
+}
+
+
+.animated-element {
+  animation: moveUpDown 0.8s infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-8px);
+  }
+}

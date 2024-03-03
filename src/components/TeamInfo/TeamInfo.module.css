@@ -167,6 +167,21 @@
 
 
 @media screen and (max-width: 414px) {
+  .teamInfo__pitchContents {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .teamInfo__image {
+    width: 100%;
+  }
+
+  .pitchIllustrations {
+    width: 100%;
+  }
+
+
   .teamInfo__heading {
     font-size: 1.25rem;
   }
@@ -192,6 +207,21 @@
 }
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
+
+  .teamInfo__pitchContents {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .teamInfo__image {
+    width: 100%;
+  }
+
+  .pitchIllustrations {
+    width: 100%;
+  }
+
   .teamInfo__heading {
     font-size: 1.5rem;
   }

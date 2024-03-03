@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./ProductShowcase.module.css";
 import productThumbnail from "../../assets/landingPageBannerImage.png";
 import aboutStyles from "../About/About.module.css";
+import Milestone from "../Milestone/Milestone";
+import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
 
 const ProductShowcase = () => {
   return (
@@ -43,6 +45,10 @@ const ProductShowcase = () => {
             potential of streamlined university living today!
           </p>
         </div>
+      </div>
+      <Milestone />
+      <div className={styles.carousel}>
+        <ProjectCarousel />
       </div>
     </div>
   );
