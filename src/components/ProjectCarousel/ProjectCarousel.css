@@ -1,5 +1,6 @@
 .product__highlights {
   margin: 4rem 0;
+  width: 100%;
 }
 
 .product__highlights-heading {
@@ -49,4 +50,5 @@
 
 #format {
   font-size: large;
+  font-weight: 400;
 }

@@ -173,7 +173,7 @@ figure footer {
   transition-timing-function: ease-in-out;
 }
 
-.golive__button {
+/* .golive__button {
   color: white;
   text-decoration: none;
   background: var(--primary-color);
@@ -181,7 +181,41 @@ figure footer {
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   cursor: pointer;
+} */
+
+.buttonContainer {
+  width: 100%;
+  height: 10vh;
+  position: relative;
 }
+
+.btn_ctalink {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  background: gray;
+  /* background-color: var(--primary-color); */
+  color: white;
+  font-size: 1.25rem;
+  font-family: inherit;
+  font-weight: 400;
+  border-radius: 0.25rem;
+  cursor: pointer;
+
+
+}
+
+.btn_ctalink:hover::after {
+  /* background: #03795d; */
+  content: " not enabled yet";
+}
+
+
+
 
 @media screen and (min-width: 531px) and (max-width: 768px) {
   figcaption {
@@ -240,23 +274,4 @@ figure footer {
     width: 160px;
   }
 
-}
-
-.btn-submit {
-  padding: 0.5rem 1.5rem;
-  border: none;
-  outline: none;
-  background-color: var(--primary-color);
-  color: white;
-  font-size: 1.25rem;
-  font-family: inherit;
-  font-weight: 500;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  width: 20%;
-
-}
-
-.btn-submit:hover {
-  background: #03795d;
 }

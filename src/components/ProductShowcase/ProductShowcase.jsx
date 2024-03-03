@@ -9,8 +9,9 @@ import productLaunchImg from "../../assets/campusflow-launch.png";
 
 const ProductShowcase = () => {
   const openLink = () => {
-    window.open('http://campus-flow.college', '_blank');
+    window.open("http://campus-flow.college", "_blank");
   };
+
   return (
     <div className={styles.productShowcase} name="product">
       <div className="container">
@@ -53,16 +54,26 @@ const ProductShowcase = () => {
           <Carousel autoPlay>
             <div>
               <img className="carousel__img" src={productLaunchImg} alt="" />
-              <h2 className="legend" style={{ fontSize: "18px" }}>
-                Stay Tuned for our revolutionary Product which is launching on 5th
-                March, 12PM
+              <h2
+                className="legend"
+                style={{ fontSize: "18px", fontWeight: "400" }}
+              >
+                Stay Tuned for our revolutionary Product which is launching on
+                5th March, 12PM
               </h2>
             </div>
           </Carousel>
         </div>
-        {/* <button class="btn btn-submit" onClick={openLink}>
-          Go Live
-        </button> */}
+        <div className={styles.buttonContainer}>
+          <button
+            type="button"
+            className={styles.btn_ctalink}
+            onClick={openLink}
+            disabled
+          >
+            Go Live
+          </button>
+        </div>
       </div>
       <Milestone />
       <div className={styles.carousel}>

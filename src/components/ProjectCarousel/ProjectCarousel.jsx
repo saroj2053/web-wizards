@@ -21,21 +21,25 @@ import index16Img from "../../assets/campusflow-images/Index16.png";
 import index17Img from "../../assets/campusflow-images/Index17.png";
 import index18Img from "../../assets/campusflow-images/Index18.png";
 import index19Img from "../../assets/campusflow-images/Index19.png";
-
+import giphyImg from "../../assets/giphy.gif";
 
 const ProjectCarousel = () => (
   <>
     <div className="product__highlights">
       <h1 className="product__highlights-heading">Product Highlights</h1>
-      <p>
-        Product Launch Commenced on 5th March at 12PM...
-      </p>
+      <p>Product Launch Commenced on 5th March at 12PM...</p>
+      <img
+        style={{ width: "30%", objectFit: "contain", margin: "0 auto" }}
+        src={giphyImg}
+        alt="minion playing guitar"
+      />
     </div>
+
     {/* <Carousel autoPlay>
       <div>
-        <img className="carousel__img" alt="" src={index1Img} />
-        <p className="legend" id="format">
-          <b>User landing Page</b>
+      <img className="carousel__img" alt="" src={index1Img} />
+      <p className="legend" id="format">
+      <b>User landing Page</b>
         </p>
       </div>
       <div>
