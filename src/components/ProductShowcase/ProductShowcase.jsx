@@ -4,14 +4,19 @@ import productThumbnail from "../../assets/landingPageBannerImage.png";
 import aboutStyles from "../About/About.module.css";
 import Milestone from "../Milestone/Milestone";
 import ProjectCarousel from "../ProjectCarousel/ProjectCarousel";
+import { Carousel } from "react-responsive-carousel";
+import productLaunchImg from "../../assets/campusflow-launch.png";
 
 const ProductShowcase = () => {
+  const openLink = () => {
+    window.open('http://campus-flow.college', '_blank');
+  };
   return (
     <div className={styles.productShowcase} name="product">
       <div className="container">
         <h1 className={styles.productShowcase__heading}>Our Products</h1>
         <div className={styles.productCard__wrapper}>
-          <div className={styles.productCard}>
+          {/* <div className={styles.productCard}>
             <figure className={styles.productImage}>
               <img
                 src={productThumbnail}
@@ -43,8 +48,21 @@ const ProductShowcase = () => {
             CampusFlow is more than a product – it's your passport to a
             smoother, more informed academic journey. Join us and unlock the
             potential of streamlined university living today!
-          </p>
+          </p> */}
+
+          <Carousel autoPlay>
+            <div>
+              <img className="carousel__img" src={productLaunchImg} alt="" />
+              <h2 className="legend" style={{ fontSize: "18px" }}>
+                Stay Tuned for our revolutionary Product which is launching on 5th
+                March, 12PM
+              </h2>
+            </div>
+          </Carousel>
         </div>
+        {/* <button class="btn btn-submit" onClick={openLink}>
+          Go Live
+        </button> */}
       </div>
       <Milestone />
       <div className={styles.carousel}>

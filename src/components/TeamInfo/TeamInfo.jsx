@@ -19,24 +19,23 @@ const TeamInfo = () => {
           </div>
           <div className={styles.pitchIllustrations}>
             <div className={styles.illustration1}>
-              <h4>Feature 1</h4>
+              <h4>Transfer Credits</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Distinctio, numquam.
+                Automated grade conversion for a seamless academic experience
+                {/* Automated transcript verification, timely reminders, and grade conversion for a seamless academic experience. */}
               </p>
             </div>
             <div className={styles.illustration2}>
-              <h4>Feature 2</h4>
+              <h4>Compare Modules</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Distinctio, numquam.
+                Compare courses and modules easily for better academic decisions.
+                {/* Effortless comparison of courses and modules based on program type, language, department, content, workload, and credit points for informed academic decisions. */}
               </p>
             </div>
             <div className={styles.illustration3}>
               <h4>Achievement -- Pitch 3</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Distinctio, numquam.
+                Web Wizards: Winning hearts with innovation – crowned favorites on Pitch 3rd!
               </p>
             </div>
           </div>

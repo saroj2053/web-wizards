@@ -46,3 +46,7 @@
   margin-left: 0px;
   transform: translate(-50%, -5px);
 }
+
+#format {
+  font-size: large;
+}

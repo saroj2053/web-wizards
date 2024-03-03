@@ -24,8 +24,8 @@ const Milestone = () => {
               Team Building, Requirements Handling
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
-              modi!
+              Our team came together to lay the foundation for CampusFlow. We meticulously handled project requirements,
+              ensuring a solid groundwork for the development journey.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -40,8 +40,8 @@ const Milestone = () => {
               Design Prototyping, Starting Development
             </h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequatur, labore?
+              We delved into design prototyping, giving shape to the visual identity of CampusFlow. Simultaneously, development kicked off,
+              marking a crucial step towards bringing our vision to life.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -56,8 +56,8 @@ const Milestone = () => {
               Data Collection, Automation Tool and Testing
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Deserunt, laborum.
+              CampusFlow witnessed extensive efforts in data collection, coupled with the implementation of automation tools.
+              Rigorous testing processes were applied to guarantee a robust and reliable platform.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -72,8 +72,8 @@ const Milestone = () => {
               Deployment, Marketing Strategies and Integration Testing
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Deserunt, laborum.
+              As February unfolded, CampusFlow reached a significant milestone with deployment. Marketing strategies were set in motion,
+              complemented by comprehensive integration testing to ensure seamless functionality.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -88,8 +88,8 @@ const Milestone = () => {
               Launch of CampusFlow
             </h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Deserunt, laborum.
+              On March 5, 2024, we are thrilled to announce the highly anticipated launch of CampusFlow! This milestone marks a significant
+              achievement for us as we unveil our platform designed to revolutionize and simplify the university experience. Get ready to embark on a new era of streamlined academic journeys with CampusFlow.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
