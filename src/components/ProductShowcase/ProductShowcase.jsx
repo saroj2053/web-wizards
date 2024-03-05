@@ -9,7 +9,7 @@ import productLaunchImg from "../../assets/campusflow-launch.png";
 
 const ProductShowcase = () => {
   const openLink = () => {
-    window.open("http://campus-flow.college", "_blank");
+    window.open("http://campusflowfrontend.s3-website.eu-north-1.amazonaws.com/", "_blank");
   };
 
   return (
@@ -58,8 +58,7 @@ const ProductShowcase = () => {
                 className="legend"
                 style={{ fontSize: "18px", fontWeight: "400" }}
               >
-                Stay Tuned for our revolutionary Product which is launching on
-                5th March, 12PM
+                Our Product is Live now, you can take an experience by visiting Go Live link below
               </h2>
             </div>
           </Carousel>
@@ -69,7 +68,6 @@ const ProductShowcase = () => {
             type="button"
             className={styles.btn_ctalink}
             onClick={openLink}
-            disabled
           >
             Go Live
           </button>

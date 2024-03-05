@@ -26,20 +26,20 @@ import giphyImg from "../../assets/giphy.gif";
 const ProjectCarousel = () => (
   <>
     <div className="product__highlights">
-      <h1 className="product__highlights-heading">Product Highlights</h1>
+      {/* <h1 className="product__highlights-heading">Product Highlights</h1>
       <p>Product Launch will commence on 5th March at 12PM...</p>
       <img
         style={{ width: "30%", objectFit: "contain", margin: "0 auto" }}
         src={giphyImg}
         alt="minion playing guitar"
-      />
+      /> */}
     </div>
 
-    {/* <Carousel autoPlay>
+    <Carousel autoPlay>
       <div>
-      <img className="carousel__img" alt="" src={index1Img} />
-      <p className="legend" id="format">
-      <b>User landing Page</b>
+        <img className="carousel__img" alt="" src={index1Img} />
+        <p className="legend" id="format">
+          <b>User landing Page</b>
         </p>
       </div>
       <div>
@@ -150,7 +150,7 @@ const ProjectCarousel = () => (
           <b>Admin Panel - Admin can manage users transfer credit requests</b>
         </p>
       </div>
-    </Carousel> */}
+    </Carousel>
   </>
 );
 
