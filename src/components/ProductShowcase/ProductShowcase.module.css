@@ -187,6 +187,7 @@ figure footer {
   width: 100%;
   height: 10vh;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .btn_ctalink {
@@ -195,15 +196,20 @@ figure footer {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 0.5rem 1.5rem;
-  border: none;
+  border: 1px solid var(--primary-color);
   outline: none;
-  background-color: var(--primary-color);
-  color: white;
+  color: var(--primary-color);
+  background: #fff;
   font-size: 1.25rem;
   font-family: inherit;
   font-weight: 400;
   border-radius: 0.25rem;
   cursor: pointer;
+}
+
+.btn_ctalink:hover {
+  background: var(--primary-color);
+  color: #fff;
 }
 
 
