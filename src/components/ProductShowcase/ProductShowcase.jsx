@@ -10,7 +10,7 @@ import productLaunchImg from "../../assets/campusflow-launch.png";
 const ProductShowcase = () => {
   const openLink = () => {
     window.open(
-      "http://campusflowfrontend.s3-website.eu-north-1.amazonaws.com/",
+      "http://frontend-across.s3-website.eu-north-1.amazonaws.com/",
       "_blank"
     );
   };
